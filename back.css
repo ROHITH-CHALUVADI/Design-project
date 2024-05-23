@@ -1,0 +1,94 @@
+@media screen and (max-width:550px){
+
+}
+@media screen and (min-width:560px){
+    body{
+        
+        padding:0;
+        margin:0 auto;
+        background-color:rgb(227, 243, 230);
+    }
+    #veg_img{
+        margin-top:20px;
+        display: block;
+        height:300px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        width:40%;
+       
+    }
+    #p1{
+        max-width:1350px;
+        margin:0 auto;
+    }
+    #p1 h1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    #p2{
+        max-width:1350px;
+        margin:0 auto;
+        padding-top:20px;
+    }
+    p{
+        text-indent: 40px;
+    }
+    #p3{
+        max-width:1350px;
+        margin:0 auto;
+    }
+    #p4{
+        max-width:1350px;
+        margin:0 auto;
+    }
+    #p4 table,th,td{
+        border:1px solid gray;
+        border-collapse: collapse;
+        padding:8px
+        
+    }
+    #p4 table{
+        margin-left:50px;
+        width:50%;        
+    }
+    table tr:nth-child(1) {
+        background: #7ab6a1;
+        
+    }
+    table tr:nth-child(even) {
+        background: #c7d6d1;
+    }
+    #p5{
+        max-width:1350px;
+        margin:0 auto;
+    }
+    #p5 h3,ol{
+        margin-left:20px;
+    }
+
+    #cook{
+        display:flex;
+        
+    }
+    #instr{
+        width:65%;
+    }
+    #cook img{
+        margin-top:60px;
+    }
+    #r_img{
+        max-width:100%;
+        margin:auto auto;
+    }
+    #r_img h3{
+        text-align: center;
+        
+    }
+    #footer{
+        background-color: rgb(215, 219, 219);
+        padding:12px;
+        text-align: center;
+    }
+
+}
